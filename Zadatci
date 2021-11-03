@@ -1,0 +1,470 @@
+https://chat.whatsapp.com/BCwi8iLSYIw2poPrtydyp1
+
+https://imgur.com/a/UzL6H5b
+
+#############################
+#VARIJABLE I TIPOVI PODATAKA#
+#############################
+1. Ako je a=4, b=2 napisi program koji racuna i ispisuje njihov umnozak i razliku
+2. Ako je a=5 napisi program koji ispisuje tri puta veci broj od a.
+3. Ako je a=100 napisi program koji ispisuje duplo manji broj od a
+4. Ako je a=4, b=8, c=12 napisi program koji računa umnozak a,b i c
+5. Varijabli x pridruzi svoje ime, varijabli g broj svojih godina te na ekranu ispisi poruku ’Ja se
+zovem x, a za 25.godina cu imati g godina
+6. Varijabli x pridruzi svoje ime, varijabli g broj svojih godina te na ekranu ispisi poruku ‘Ja se
+zovem x, kad sam bio četverostruko mladji imao sam g godina
+7. Napisi program koji ce ispisati tvoje ime u jednom retku, a prezime u drugom retku
+8. Napisi program koji ispisuje tvoja četiri najdraza sporta, jedan ispod drugoga 
+9. Varijabli x pridruzi svoje ime, a varijabli g broj svojih godina te ispisi poruku: Zovem se x i
+imam g godina.
+10. Varijabli x pridruzi svoje ime, a varijabli g broj svojih godina te ispisi poruku: Zovem se x, a
+kada sam bio dvostruko mladji imao sam g godina. 
+11. Varijabli x pridruzi svoje ime, a varijabli g broj svojih godina te ispisi poruku: Zovem se x, a
+kada budem trostruko stariji imat cu g godina.
+12. Varijablama x,y i z pridruzi tri broja po zelji i izracunaj i ispisi zbroj i umnozak ta tri broja.
+13. Varijabli x pridruzi jedan paran broj te ispisi sljedeci po redu paran broj.
+14. Varijabli y pridruzi broj 8 te ispisi trostruko veci broj od njegakolad
+15. Ivan je dobio kutiju od 30 cokoladica za rodjendan. Dvije je dao sestri, jednu
+mami, a jednu tati. Ostale je sam pojeo. Napisi program koji ce izracunati i ispisati koliko coica je Ivan sam pojeo.
+16. Mirna je sudjelovala na glazbenom natjecanju. U ziriju je bilo cetiri clana
+(a,b,c,d) i svaki od njih joj je dao ocjenu od 1-10. Varijablama a,b,c i d pridruzi ocjenu za svakog
+clana zirija te izracunaj i ispisi koliko je Mirna bodova ukupno osvojila.
+17. Marko je za rodjendan dobio 200 kuna od bake i djeda. Potrosio je 30 kuna na kekse i 23
+kune na cokoladu. Napisi program koji ce izracunati koliko je novaca Marku ostalo
+18. Ako je Josipov omiljeni nogometas 2017.g. proslavio 29 rodjendan, koje godine je on rodjen? Napisi program koji ce to izracunati i ispisati. Ako je od Josipa mlađi za 14 godina, koliko je Josipu godina?
+19. Napisati Python program koji pita korisnika kako se zove i koliko ima godina, a zatim te 
+podatke ispisuje. 
+20. Napisi program koji unosi (naredba input) tvoje ime i ispisuje pozdravnu poruku: Bok, x! 
+21. Napisi program koji unosi (naredba input) tri broja a,b,c i ispisuje njihov umnozak.
+22. Napisi program koji unosi (naredba input) dva broja te ispisuje njihov zbroj, razliku, umnozak i kolicnik, jedno ispod drugog
+23. Napisi program koji unosi (naredba input) jedan parni broj x i ispisuje sljedeci parni broj.
+24. Iva i Ena bile su skupa na moru i na plazi su skupljale skoljke. Iva je skupila x skoljaka,
+a Ena tri puta vise od Ive. Napisi program koji ce na temelju ulaznih podataka izracunati i
+ispisati koliko skoljaka je skupila Ena.
+25. Fran i Jan idu na sladoled. Cetiri kuglice sladoleda Fran je platio n kuna. Napisi program
+koji ce na temelju ulaznih podataka izracunati i ispisati koliko kuna kosta jedna kuglica sladoleda.
+26. Klara je pronasla jednu staru, neobicnu knjigu. Svaki put kada ju otvori u knjizi nedostaje
+nekoliko stranica. Klara vidi npr. na lijevoj strani broj 14, a na desnoj broj 19. Ostale stranice
+nedostaju. Ako je a broj stranice na lijevoj strani, a b broj stranice na desnoj strani, na temelju
+ulaznih podataka napisi program koji će ispisati i izracunati koliko stranica nedostaje u knjizi.
+27. Marko je za vikend otisao s roditeljima na more. Temperatura u Opatiji je t1, a u Crikvenici t2. Marka
+zanima za koliko stupnjeva je temperatura u Crikvenici niza od one u Opatiji. Na temelju ulaznih
+podataka napisi program koji ce to izracunati.
+28. Ivica je Marici poklonio cokoladu koja se sastoji od kockica rasporedjenih u r
+redaka i s stupaca. Ako znamo broj redaka r i broj stupaca s u cokoladi, napisi program koji
+ce izracunati i ispisati koliko cokolada ima ukupno kockica
+29. Napisi program koji pretvara metre u centimetre.
+30. Napiši program koji ispisuje cetiri imena, svaki u novom retku, s razmakom izmedju svakog
+imena
+31. Marko je za rodjendan dobio x kuna od bake i djeda. Potrosio je y kuna na kekse i z kuna na
+cokoladu. Napisi program koji ce izracunati koliko je novaca Marku ostalo
+32. Mirku bas ne ide matematika. Zato na satu dobije tri dodatna zadatka (a,b,c) iz zbirke. No
+on uvijek rijesi samo posljednji zadatak. Napisi program koji ce ucitati s tipkovnice broj sva tri zadatka i
+ispisati samo onaj koji je Mirko uspio rijesiti.
+33. Kreso je od mame i tate dobio n bajadera. Jednu je dao mami, jednu tati i dvije sestri. Ostale
+je sam pojeo. Napisi program koji ce izracunati koliko je Kreso pojeo bajadera
+34. Napišite program koji se sastoji od pet varijabli. S jednim pozivom 
+funkcije print() ispišite svih pet vrijednosti.
+35. Nastavno na prethodni zadatak, doradite poziv funkcije print()
+tako da vrijednost svake pojedine varijable bude u novom redu.
+36. Napišite program koji ispisuje niz znakova: "Hello World" te neka se 
+na kraj ispisanog niza ispiše i znak "!". Uskličnik funkciji pr	int()
+prenesite kao end argument.
+37. Napišite program koji se sastoji od dvije varijable. Vrijednosti tih 
+varijabli učitajte preko tipkovnice te ih ispišite na zaslon ekrana. 
+Prilikom upisivanja vrijednosti u varijable obavijestite korisnika da 
+mora unijeti neku vrijednost, npr. "Unesite prvi niz znakova: ". To 
+napravite bez korištenja funkcije print().
+
+#############################
+#JOŠ MALO OPERATORA            #
+#############################
++1. Kreirajte dvije varijable i pridijelite im neke vrijednosti te uz pomoć  
+aritmetičkih operatora (zbrajanje, oduzimanje, množenje, dijeljenje,
+ostatak dijeljenja, potenciranje, cjelobrojno dijeljenje) ispišite 
+rezultate.
+
++2. Kreirajte dvije brojčane varijable te uz pomoć skraćenih aritmetičkih 
+operatora (zbrajanje, oduzimanje, množenje, dijeljenje, ostatak 
+dijeljenja, potenciranje, cjelobrojno dijeljenje) ispišite rezultate.
+Napomena: nakon svakog korištenja skraćenog aritmetičkog 
+operatora potrebno je varijablu čija se vrijednost mijenja postaviti na 
+početnu vrijednost.
+
++3. Napišite program koji će u varijable a i b spremiti dva 
+dvoznamenkasta broja. U varijablu a pohranite zadnju znamenku 
+broja koji se nalazi u varijabli b, a u varijablu b pohranite zadnju 
+znamenku broja koja se nalazi u varijabli a. Ispišite sadržaj varijabli a
+i b.
+
++4.Kreirajte dvije brojčane varijable te ispišite rezultat operatora 
+usporedbe (usporedba jednakosti, nejednakosti, strogo veće, strogo 
+manje, veće ili jednako, manje ili jednako).
+
++5. Kreirajte dvije varijable i pridijelite im vrijednosti True ili False. 
+Ispišite rezultate logičkih operatora (and, or, not) za dvije 
+prethodno kreirane varijable.
+
+6. Prethodni zadatak uredite tako da isprobate korištenje komentara
+
+7.Napišite program u kojem su navedene varijable a=5, b=10, 
+c=15, d=21. Program mora vratiti aritmetičku sredinu danih 
+brojeva. Rezultat spremite u varijablu jer će se vrijednost koristiti i u 
+sljedećem zadatku. Aritmetička sredina računa se tako da se sve 
+dane vrijednosti zbroje te se rezultat podijeli s brojem varijabli.
+
+8. Iskoristite prethodni zadatak te dobiveni rezultat pretvorite u cijeli broj
+i tu vrijednost spremite u varijablu. Nad cjelobrojnom aritmetičkom 
+sredinom koju ste prethodno spremili u varijablu napravite
+kvadriranje i ispišite dobiveni rezultat.
+
+9. Korištenjem skraćenih aritmetičkih operatora rezultat dobiven iz 
+prethodnog zadatka pomnožite sa 100 i ispišite dobivenu vrijednost.
+
+10. Pomoću operatora usporedbe provjerite je li broj koji ste dobili u 
+prethodnom zadatku manji od 500. 
+
+11. Napišite program koji će u varijablu spremiti neku vrijednost 
+temperature (izražene u stupnjevima Celzijevim). Na ekran ispisati 
+vrijednost temperature u farenhajtima. Formula: (x*9/5)+32, x je vrijednost  izražena u stupnjevima Celzijevim.
+
+12. Napiši program koji će unositi dva prirodna broja a i b te ispisivati njihov zbroj, razliku, 
+umnožak i količnik (drugi je broj uvijek različit od nule). Ispis programa treba biti „punog“ 
+oblika, primjerice, za unos brojeva 5 i 7 te operaciju + ispis treba biti 5+7=12. 
+
+13. Napiši program koji će unositi iznos odobrenog potrošačkog kredita c, godišnju kamatnu 
+stopu p, broj mjeseci m, a ispisivati kamate prema formuli: k=cp(m+a)/2400 
+što je a?
+primjer: 
+unos:1000, 8, 12 
+ispis: 43.33
+a : neki broj
+
+14. Ivica ima n kuna za koje želi kupiti prijateljima čokolade. Jedna čokolada stoji m kuna. Ivicu 
+zanima koliko će najviše čokolada moći kupiti te koliko će mu novca nakon toga preostati. 
+Pomogni Ivici i napiši program koji će unositi iznos novca kojim Ivica raspolaže te cijenu jedne 
+čokolade, a ispisivati koliko maksimalno čokolada Ivica može kupiti te koliko će mu novca 
+nakon toga ostati. 
+
+15. Napisati program za Pitagorin poučak (izračunati hipotenuzu za unešene vrijednosti kateta).
+
+16. Zbrojite dva broja i rezultat ispišite kao decimalni broj
+
+17. Unesite dva broja input funkcijom i izračunajte njihovu sumu, razliku, količnik, umnožak
+
+18. Napisati program koji ispisuje rezultat na temelju izraza: x=b^2-4ac
+
+19. Izračunati aritmetičku sredinu sedam brojeva
+
+20. Vlatka je dobila od bake x kuna i odlucila kupiti cokoladice. Svaka cokoladica kosta y kuna.
+Napisi program koji ce ucitati koliko je kuna Vlatka dobila i cijenu svake cokoladice te ispisati u
+dva retka koliko Vlatka moze kupiti cokoladica za svoj novac i koliko joj je kuna ostalo kad kupi
+cokoladice.
+
+21. Napisi program koji unosi neki dvoznamenkasti broj x i ispisuje znamenku jedinicu i deseticu, jedno ispod drugoga.
+
+22. Napisi program koji unosi neki dvoznamenkasti broj x te ispisuje zbroj njegovih znamenki.
+
+23. Napisi program koji unosi neki troznamenkasti broj x te ispisuje jedinicu, deseticu i stoticu.
+
+24. Napisi program koji ucitava troznamenkasti broj x te ispisuje novi broj u kojemu su znamenke jedinica i stotica zamijenile mjesta. 
+Npr. ako imamo broj 239 i zamijenimo mjesto jedinice i stotice dobit cemo broj: 932.
+1. rješenje: j = x % 10; d = x // 10 % 10; s = x // 100; print(s*1+d*10+j*100);
+2. rješenje: print(int(str(x)[::-1]));
+
+25. U toj igri slucajnim se odabirom izvlaci 7 kuglica tj. brojeva. Pero je smislio novu igru tj. pogadjanje Joker broja.
+Joker broj nastaje tako da se stvori od znamenki jedinica prvih pet izvucenih brojeva.Npr. ako
+su izvuceni brojevi 23,12,4,10,15,19,33 tada ce Joker broj biti 32405. Napisi program koji za ucitanih
+7 brojeva ispisuje joker broj.
+go
+25a) Međutim, Pero nije osvojio ništa. Tad je shvatio da je pogriješio, i zaključio da je trebao koristit desetice. Implementirajte i tu metodu.`
+
+
+#############################
+#BOOLEANS                                  #
+#############################
+1. Unesi neki prirodan broj i provjeri da li je taj broj djeljiv sa sedam
+
+2. • Omogućite unos realnog broja i ispitajte da li je broj negativan ili pozitivan.
+   • Ako je pozitivan ispisati p#############################
+#VARIJABLE I TIPOVI PODATAKA#
+#############################
+1. Ako je a=4, b=2 napisi program koji racuna i ispisuje njihov umnozak i razliku
+2. Ako je a=5 napisi program koji ispisuje tri puta veci broj od a.
+3. Ako je a=100 napisi program koji ispisuje duplo manji broj od a
+4. Ako je a=4, b=8, c=12 napisi program koji računa umnozak a,b i c
+5. Varijabli x pridruzi svoje ime, varijabli g broj svojih godina te na ekranu ispisi poruku ’Ja se
+zovem x, a za 25.godina cu imati g godina
+6. Varijabli x pridruzi svoje ime, varijabli g broj svojih godina te na ekranu ispisi poruku ‘Ja se
+zovem x, kad sam bio četverostruko mladji imao sam g godina
+7. Napisi program koji ce ispisati tvoje ime u jednom retku, a prezime u drugom retku
+8. Napisi program koji ispisuje tvoja četiri najdraza sporta, jedan ispod drugoga 
+9. Varijabli x pridruzi svoje ime, a varijabli g broj svojih godina te ispisi poruku: Zovem se x i
+imam g godina.
+10. Varijabli x pridruzi svoje ime, a varijabli g broj svojih godina te ispisi poruku: Zovem se x, a
+kada sam bio dvostruko mladji imao sam g godina.
+11. Varijabli x pridruzi svoje ime, a varijabli g broj svojih godina te ispisi poruku: Zovem se x, a
+kada budem trostruko stariji imat cu g godina.
+12. Varijablama x,y i z pridruzi tri broja po zelji i izracunaj i ispisi zbroj i umnozak ta tri broja.
+13. Varijabli x pridruzi jedan paran broj te ispisi sljedeci po redu paran broj.
+14. Varijabli y pridruzi broj 8 te ispisi trostruko veci broj od njega
+15. Ivan je dobio kutiju od 30 cokoladica za rodjendan. Dvije je dao sestri, jednu
+mami, a jednu tati. Ostale je sam pojeo. Napisi program koji ce izracunati i ispisati koliko cokoladica je Ivan sam pojeo.
+16. Mirna je sudjelovala na glazbenom natjecanju. U ziriju je bilo cetiri clana
+(a,b,c,d) i svaki od njih joj je dao ocjenu od 1-10. Varijablama a,b,c i d pridruzi ocjenu za svakog
+clana zirija te izracunaj i ispisi koliko je Mirna bodova ukupno osvojila.
+17. Marko je za rodjendan dobio 200 kuna od bake i djeda. Potrosio je 30 kuna na kekse i 23
+kune na cokoladu. Napisi program koji ce izracunati koliko je novaca Marku ostalo
+18. Ako je Josipov omiljeni nogometas 2017.g. proslavio 29 rodjendan, koje godine je on rodjen? Napisi program koji ce to izracunati i ispisati. Ako je od Josipa mlađi za 14 godina, koliko je Josipu godina?
+19. Napisati Python program koji pita korisnika kako se zove i koliko ima godina, a zatim te 
+podatke ispisuje. 
+20. Napisi program koji unosi (naredba input) tvoje ime i ispisuje pozdravnu poruku: Bok, x! 
+21. Napisi program koji unosi (naredba input) tri broja a,b,c i ispisuje njihov umnozak.
+22. Napisi program koji unosi (naredba input) dva broja te ispisuje njihov zbroj, razliku, umnozak i kolicnik, jedno ispod drugog
+23. Napisi program koji unosi (naredba input) jedan parni broj x i ispisuje sljedeci parni broj.
+24. Iva i Ena bile su skupa na moru i na plazi su skupljale skoljke. Iva je skupila x skoljaka,
+a Ena tri puta vise od Ive. Napisi program koji ce na temelju ulaznih podataka izracunati i
+ispisati koliko skoljaka je skupila Ena.
+25. Fran i Jan idu na sladoled. Cetiri kuglice sladoleda Fran je platio n kuna. Napisi program
+koji ce na temelju ulaznih podataka izracunati i ispisati koliko kuna kosta jedna kuglica sladoleda.
+26. Klara je pronasla jednu staru, neobicnu knjigu. Svaki put kada ju otvori u knjizi nedostaje
+nekoliko stranica. Klara vidi npr. na lijevoj strani broj 14, a na desnoj broj 19. Ostale stranice
+nedostaju. Ako je a broj stranice na lijevoj strani, a b broj stranice na desnoj strani, na temelju
+ulaznih podataka napisi program koji će ispisati i izracunati koliko stranica nedostaje u knjizi.
+27. Marko je za vikend otisao s roditeljima na more. Temperatura u Opatiji je t1, a u Crikvenici t2. Marka
+zanima za koliko stupnjeva je temperatura u Crikvenici niza od one u Opatiji. Na temelju ulaznih
+podataka napisi program koji ce to izracunati.
+28. Ivica je Marici poklonio cokoladu koja se sastoji od kockica rasporedjenih u r
+redaka i s stupaca. Ako znamo broj redaka r i broj stupaca s u cokoladi, napisi program koji
+ce izracunati i ispisati koliko cokolada ima ukupno kockica
+29. Napisi program koji pretvara metre u centimetre.
+30. Napiši program koji ispisuje cetiri imena, svaki u novom retku, s razmakom izmedju svakog
+imena
+31. Marko je za rodjendan dobio x kuna od bake i djeda. Potrosio je y kuna na kekse i z kuna na
+cokoladu. Napisi program koji ce izracunati koliko je novaca Marku ostalo
+32. Mirku bas ne ide matematika. Zato na satu dobije tri dodatna zadatka (a,b,c) iz zbirke. No
+on uvijek rijesi samo posljednji zadatak. Napisi program koji ce ucitati s tipkovnice broj sva tri zadatka i
+ispisati samo onaj koji je Mirko uspio rijesiti.
+33. Kreso je od mame i tate dobio n bajadera. Jednu je dao mami, jednu tati i dvije sestri. Ostale
+je sam pojeo. Napisi program koji ce izracunati koliko je Kreso pojeo bajadera
+34. Napišite program koji se sastoji od pet varijabli. S jednim pozivom 
+funkcije print() ispišite svih pet vrijednosti.
+35. Nastavno na prethodni zadatak, doradite poziv funkcije print()
+tako da vrijednost svake pojedine varijable bude u novom redu.
+36. Napišite program koji ispisuje niz znakova: "Hello World" te neka se 
+na kraj ispisanog niza ispiše i znak "!". Uskličnik funkciji pr	int()
+prenesite kao end argument.
+37. Napišite program koji se sastoji od dvije varijable. Vrijednosti tih 
+varijabli učitajte preko tipkovnice te ih ispišite na zaslon ekrana. 
+Prilikom upisivanja vrijednosti u varijable obavijestite korisnika da 
+mora unijeti neku vrijednost, npr. "Unesite prvi niz znakova: ". To 
+napravite bez korištenja funkcije print().
+
+#############################
+#JOŠ MALO OPERATORA            #
+#############################
+1. Kreirajte dvije varijable i pridijelite im neke vrijednosti te uz pomoć  
+aritmetičkih operatora (zbrajanje, oduzimanje, množenje, dijeljenje, 
+ostatak dijeljenja, potenciranje, cjelobrojno dijeljenje) ispišite 
+rezultate.
+
+2. Kreirajte dvije brojčane varijable te uz pomoć skraćenih aritmetičkih 
+operatora (zbrajanje, oduzimanje, množenje, dijeljenje, ostatak 
+dijeljenja, potenciranje, cjelobrojno dijeljenje) ispišite rezultate.
+Napomena: nakon svakog korištenja skraćenog aritmetičkog 
+operatora potrebno je varijablu čija se vrijednost mijenja postaviti na 
+početnu vrijednost.
+
+3. Napišite program koji će u varijable a i b spremiti dva 
+dvoznamenkasta broja. U varijablu a pohranite zadnju znamenku 
+broja koji se nalazi u varijabli b, a u varijablu b pohranite zadnju 
+znamenku broja koja se nalazi u varijabli a. Ispišite sadržaj varijabli a
+i b.
+
+4.Kreirajte dvije brojčane varijable te ispišite rezultat operatora 
+usporedbe (usporedba jednakosti, nejednakosti, strogo veće, strogo 
+manje, veće ili jednako, manje ili jednako).
+
+5. Kreirajte dvije varijable i pridijelite im vrijednosti True ili False. 
+Ispišite rezultate logičkih operatora (and, or, not) za dvije 
+prethodno kreirane varijable.
+
+6. Prethodni zadatak uredite tako da isprobate korištenje komentara
+
+7.Napišite program u kojem su navedene varijable a=5, b=10, 
+c=15, d=21. Program mora vratiti aritmetičku sredinu danih 
+brojeva. Rezultat spremite u varijablu jer će se vrijednost koristiti i u 
+sljedećem zadatku. Aritmetička sredina računa se tako da se sve 
+dane vrijednosti zbroje te se rezultat podijeli s brojem varijabli.
+
+8. Iskoristite prethodni zadatak te dobiveni rezultat pretvorite u cijeli broj
+i tu vrijednost spremite u varijablu. Nad cjelobrojnom aritmetičkom 
+sredinom koju ste prethodno spremili u varijablu napravite
+kvadriranje i ispišite dobiveni rezultat.
+
+9. Korištenjem skraćenih aritmetičkih operatora rezultat dobiven iz 
+prethodnog zadatka pomnožite sa 100 i ispišite dobivenu vrijednost.
+
+10. Pomoću operatora usporedbe provjerite je li broj koji ste dobili u 
+prethodnom zadatku manji od 500. 
+
+11. Napišite program koji će u varijablu spremiti neku vrijednost 
+temperature (izražene u stupnjevima Celzijevim). Na ekran ispisati 
+vrijednost temperature u farenhajtima. Formula: (x*9/5)+32, x je vrijednost  izražena u stupnjevima Celzijevim.
+
+12. Napiši program koji će unositi dva prirodna broja a i b te ispisivati njihov zbroj, razliku, 
+umnožak i količnik (drugi je broj uvijek različit od nule). Ispis programa treba biti „punog“ 
+oblika, primjerice, za unos brojeva 5 i 7 te operaciju + ispis treba biti 5+7=12. 
+
+13. Napiši program koji će unositi iznos odobreno g potrošačkog kredita c, godišnju kamatnu 
+stopu p, broj mjeseci m, a ispisivati kamate prema formuli: k=cp(m+a)/2400 
+primjer: 
+
+14. Ivica ima n kuna za koje želi kupiti prijateljima čokolade. Jedna čokolada stoji m kuna. Ivicu 
+zanima koliko će najviše čokolada moći kupiti te koliko će mu novca nakon toga preostati. 
+Pomogni Ivici i napiši program koji će unositi iznos novca kojim Ivica raspolaže te cijenu jedne 
+čokolade, a ispisivati koliko maksimalno čokolada Ivica može kupiti te koliko će mu novca 
+nakon toga ostati. 
+
+15. Napisati program za Pitagorin poučak (izračunati hipotenuzu za unešene vrijednosti kateta).
+
+16. Zbrojite dva broja i rezultat ispišite kao decimalni broj 
+
+17. Unesite dva broja input funkcijom i izračunajte njihovu sumu, razliku, količnik, umnožak
+
+18. Napisati program koji ispisuje rezultat na temelju izraza: x=b^2-4ac
+
+19. Izračunati aritmetičku sredinu sedam brojeva
+
+20. Vlatka je dobila od bake x kuna i odlucila kupiti cokoladice. Svaka cokoladica kosta y kuna.
+Napisi program koji ce ucitati koliko je kuna Vlatka dobila i cijenu svake cokoladice te ispisati u
+dva retka koliko Vlatka moze kupiti cokoladica za svoj novac i koliko joj je kuna ostalo kad kupi
+cokoladice.
+
+21. Napisi program koji unosi neki dvoznamenkasti broj x i ispisuje znamenku jedinicu i deseticu, jedno ispod drugoga.
+
+22. Napisi program koji unosi neki dvoznamenkasti broj x te ispisuje zbroj njegovih znamenki.
+
+23. Napisi program koji unosi neki troznamenkasti broj x te ispisuje jedinicu, deseticu i stoticu.
+
+24. Napisi program koji ucitava troznamenkasti broj x te ispisuje novi broj u kojemu su znamenke jedinica i stotica zamijenile mjesta. 
+Npr. ako imamo broj 239 i zamijenimo mjesto jedinice i stotice dobit cemo broj: 932.
+
+25. U toj igri slucajnim se odabirom izvlaci 7 kuglica tj. brojeva. Pero je smislio novu igru tj. pogadjanje Joker broja.
+Joker broj nastaje tako da se stvori od znamenki jedinica prvih pet izvucenih brojeva.Npr. ako
+su izvuceni brojevi 23,12,4,10,15,19,33 tada ce Joker broj biti 32405. Napisi program koji za ucitanih
+7 brojeva ispisuje joker broj.
+25a) Međutim, Pero nije osvojio ništa. Tad je shvatio da je pogriješio, i zaključio da je trebao koristit desetice. Implementirajte i tu metodu.`
+
+
+#############################
+#BOOLEANS                                  #
+#############################
+1. Unesi neki prirodan broj i provjeri da li je taj broj djeljiv sa sedam
+
+2. • Omogućite unos realnog broja i ispitajte da li je broj negativan ili pozitivan.
+   • Ako je pozitivan ispisati pozitivan
+   • U suprotnom ispisati negativan
+
+3. Unesite dva broja. Zbrojite dva broja. Ako je zbroj veći od 20 ispišite : Suma je veća od 20 u
+suprotnom ispišite: Suma je manja od 20
+
+4. • Unesite dva broja. Pomnožite ih i zbrojite. Ispišite umnožak i zbroj.
+   • Provjerite da li su zbroj i umnožak jednaki
+   • Ako su zbroj i umnožak jednaki ispisati: umnozak i zbroj 2 broja su jednaki
+   • U suprotnom ispisati:
+   • Umnozak i zbroj 2 broja su razliciti
+
+5. • Unesite 2 broja
+   • Ako su oba broja jednaka izračunati površinu kvadrata (p=a**2)
+   • U suprotnom izračunati površinu pravokutnika (a*b)
+
+6. • Upišite neku riječ.
+   • Zatim provjerite ako se u toj riječi nalazi samoglasnik a
+   • Ako postoji, ispisati samoglasnik se nalazi u napisanoj rijeci, u suprotnom ispisati
+nema samoglasnika (koristiti operator istovjetnosti)
+
+7. •Unesite broj. Ako je unesen broj 1 omoguci operaciju zbrajanja dva broja i ispiši zbroj;
+   •Unosom bilo kojeg drugog broja omoguci operaciju množenja dva broja
+   i ispiši umnožak
+
+8. • Omogućite dva unosa broja 0 ili 1.
+   • Upotrijebite operaciju logičkog I
+   • Ako je rezultat TRUE ispišite true
+   • U suprotnom ispišite FALSE
+
+9. • Unesite dva broja
+   • Ispitati sljedeći logički izraz
+   • a>0 and b<a
+   • Ako je prethodni izraz ispravan
+   • Ispisati TRUE u suprotnom FALSE
+
+10. • Unesite dva broja
+    • Ispitati sljedeći logički izraz
+    • a>0 and b<a
+    • Ako je prethodni izraz ispravan
+    • Ispisati TRUE te provjeriti sljedeći
+    • logički izraz a>b or b>0
+    • u suprotnom ispisati FALSE
+    • Ako je prethodni izraz ispravan
+    • Ispisati TRUE
+    • u suprotnom FALSE
+
+11. Napisati program za množenje dva broja u rasponu zaključno s brojem 10. Na početku
+programa upitati korisnika da li želi množiti brojeve. Ukoliko odgovori pozitivno s da
+omogućiti unos i množenje. Ukoliko odgovori negativno, omogućiti izlazak iz programa.
+
+12. •Napisati program koji de omoguditi korisniku unos stranica trokuta.
+    •Program redom ispisuje stranice trokuta redoslijedom kojim ih je korisnik unio.
+    •Program provjerava da li takav trokut postoji. Ako postoji onda
+     se provjerava je li trokut jednakostraničan, raznostraničan ili jednakokračan.
+    •Nakon provjere, program ispisuje obavijest o postojanju takvog trokuta i vrsti trokuta
+    (jednakostraničan, raznostraničan ili jednakokračan.).
+    •U suprotnom ispisuje da trokut ne postoji.
+
+13. Napišite program koji će za uneseni broj ispisati da li je broj pozitivan, nula ili negativan
+koristeći elif uvjetovanje.
+
+14. Napravite program koji će za unos dva broja vršiti sljedeće operacije: zbrajanje,
+oduzimanje, množenje i dijeljenje.
+Na početku je potrebno korisniku omogućiti unos dva broja, zatim odabrati operaciju
+odabirom znaka te operacije (+,-,*,/)
+
+15. Program treba korisniku omogućiti unos broja bodova od 1-100. Zatim program treba prema
+bodovnoj skali za svaki broj bodova ispisati o kojoj se ocjeni radi. Bodovne pragove je
+potrebno odrediti kao uvjete u elif uvjetovanju prema tablici
+
+#############################
+#STRINGS                                      #
+#############################
+1. Spremite sljedeći niz znakova u varijablu i ispišite taj niz: "Dobar dan svima"
+2. Iz niza znakova u prethodnom zadatku dohvatite i ispišite riječ "dan"
+3. Kreirajte dvije varijable i pridružite im neki niz znakova. Isprobajte 
+kako funkcioniraju operatori za rad s nizovima znakova (spajanje, 
+ponavljanje, dohvaćanje vrijednosti na indeksu, vraćanje dijela niza 
+omeđenog indeksima, provjera nalazi li se dani znak u nizu, provjera 
+NE nalazi li se dani znak u nizu)
+4. Kreirajte varijablu te u nju spremite neki niz znakova. Tu varijablu 
+upotrijebite kako biste isprobali korištenje funkcija i metoda za rad s 
+nizovima znakova (capitalize(), len(), lower(), upper(), 
+title(), lstrip(), rstrip(), strip())
+5. U varijablu upišite neki proizvoljni niz znakova. Nad varijablom 
+pozovite odgovarajuću funkciju koja će vratiti duljinu upisanoga niza 
+znakova te rezultat spremite u varijablu. Na temelju duljine niza 
+ispišite sve znakove do polovice niza. Primjer: ako imamo niz od 14
+znakova (abcdefghijklmn), potrebno je ispisati 1., 2., 3., 4., 5., 6. i 7. 
+znak (abcdefg)
+6. Upisati jednu riječ i umnožiti je 5 puta
+7. Upišite dvije riječi i spojite ih u niz znakova
+8. Napiši program koji unosi rečenicu i ispisuje istu tu rečenicu u kojoj je svako slovo a promijenjeno u 
+slovo o.
+9. Napiši program koji unosi rečenicu u 3.licu jednine prezenta i ispisuje ju u prošlom vremenu.   #### neka recenica bude u obliku SUBJEKT PREDIKAT (on trči / beba hoda / ona gleda)  - (on je trčao / beba je hodala / ona je gledala)
+10. Napiši program koji unosi jedan troznamenkasti broj i ispisuje zbroj njegovih znamenki.
+11. Napiši program koji unosi jedan troznamenkasti broj i ispisuje znamenku deseticu,stoticu i jedinicu (koristeći isključivo današnje gradivo)
+12. Unesite string neparne duljine veće od 7, te isprintajte novi string sačinjen od srednja 3 znaka zadanog stringa
+13. Unesite dva stringa s1, s2, te kreirajte novi string tako što ćete postaviti s2 u sredinu s1
+14. Unesite dva stringa s1, s2 i ispišite novi string sačinjen od prvog, srednjeg i zadnjeg znaka od oba unesena stringa
+15. Nađite sva pojavljanja ‘stol’ u zadanom stringu zanemarujući velika i mala slova: „U kuhinji je stol. STOL je novi.”
+16. Obrnite navedeni string: „LIpik”
+
+  
