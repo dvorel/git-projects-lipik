@@ -1,0 +1,70 @@
+##################################################################################################################################################
+#Ovo je lista nesto naprednijih zadataka. Nisu obavezni. Ako budu preteski, vratite se na neke iz ostalih fajlova. 				 #
+#Neki od ovih zadataka mogu znacit visednevno rjesavanje.											 #
+# 																		 #
+#Ali bar se radi o primjerima iz nesto stvarnijeg svijeta.											 #
+#Lista zadataka ce vremenom rasti.														 #
+#Sretno :)																	 #
+##################################################################################################################################################
+
+Zadatci:
+1. Neka program omoguci unos do trenutka kad je unesen broj -1. Korisnik unosi stringove, a program vraca slucajne recenice iz zbirke mogucih odgovora.
+
+2. Ponovno, omogucite unos do trenutka kad je unesen broj -1.
+   Program prvo postavlja pitanje - "zelite li napraviti unos?", ako je odgovor 'da', program se nastavlja, ako je 'ne', program se gasi. U slucaju bilo kakvog
+   drugog odgovora, ispisuje se poruka o gresci i trazi novi unos.
+   Ako korisnik zeli napraviti unos, nudi se unos imena, prezimena, broja godina, spola, najdraza zivotinja, najdraza boja.
+   Nakon unosa, program ponovno pita o unosu. Ako je odgovor -1 tokom unosa, prekinuti program i ne dodati uneseno u listu osoba.
+   Kad se program iskljuci, (bilo da je odgovor 'ne' ili je unos u nekom trenutku -1), ispisati sve unesene podatke u redcima.
+
+3. Napravite program koji ce omoguciti popisivanje knjiga u knjizari. Obavezna su polja 'naslov', 'cijena' i 'godina_izdanja'. Dodajte polja kakva zelite.
+
+4. Python ima biblioteku 'os', a biblioteka 'os' ima funkciju 'listdir(path)', gdje je 'path' sistemski path do foldera. Napravite program koji ce
+ispisati sadrzaj proizvoljnog foldera. Mozete kombinirati s "beskonacnim unosom".
+
+(ako ne znate funkcije, pitajte. ili cu objasnit 'broadcastom', ili cu pojedincima, ovisi kakva bude situacija.)
+
+5. ROT13 je jednostavan algoritam za kriptiranje stringova.
+   Svako slovo nekog stringa mijenjamo sa slovom udaljenim 13 mijesta unaprijed,
+   ako se slovo nalazi ispod polovine engleske abecede, te 13 mijesta unazad u obrnutom slucaju.
+   Napravite funkciju koja ce kriptirati proizvoljni string na takav nacin.
+   Napravite funkciju koja ce dekriptirati proizvoljni string na takav nacin.
+
+6. ROT13 je zapravo specijalan slucaj Cezarove sifre. Cezarova sifra funkcionira na sljedeci nacin:
+   Potreban je niz znakova od 26 slova (ili 30 za hrvatski slucaj), koji djeluje kao kljuc sifre.
+   Prvo slovo odgovara slovu A, drugo odgovara slovu B i tako dalje.
+   Potom se u stringu koji je "zrtva" enkripcije, svako slovo mijenja s odgovarajucim slovom iz kljuca.
+   Napravite funkciju enkriptor, te funkciju dekriptor. Pitajte ako nesto nije jasno.
+
+7. Napravite funkciju koja prima kvadratnu jednadzbu u formatu 'ax^2 + bx +x = 0'
+(pri unosu zamijeniti a b i c konkretnim brojevima), te uzvraca s dvjema nul-tockama za specificne slucajeve a b i c.
+Pretpostavite da je unos uvijek ispravan.
+
+7.1. Omogucite provjeru ispravnosti unosa.
+
+8. Pomocu 'beskonacnog unosa', napravite kalkulator. Kalkulator prima izraze tipa 'x + y', te vraca rezultat.
+
+8.1. Omogucite provjeru ispravnosti unosa.
+
+9. Napravite funkciju koja simulira automat za usitnjavanje novca. Korisnik unosi novcanice od 10, 20, 50, 100, 200, 500 ili 1000 kuna,
+   a program uzvraca broj kovanica od 5, 2, ili 1 kunu, te ispis koliko kojih kovanica vraca.
+
+10. Koristeci se funkcijom iz 9. i principom 'beskonacnog unosa', napravite simulator automata za prodaju grickalica. Automat mora nuditi bar dva artikla.
+
+11. Implementirajte matrice pomocu lista. Matrice promotrimo kao 2D liste. Redci matrice ce biti pod-liste glavne liste.
+    Primjer matrice:
+
+    a11 a12 ... a1j
+    a21	a22 	.
+    a31 ...	.
+    .		.
+    .		.
+    ai1.........aij
+
+    Neobaveznim redosljedom.
+    Napravite funkciju koja ce isprintati matricu na takav nacin.
+    Napravite funkciju za dohvat (i, j) clana matrice.
+    Napravite funkciju koja ce transponirati matricu.
+    Napravite funkciju koja ce ispisati dimenzije matrice.
+
+12. Koristeci se principom 'beskonacnog unosa', napravite simulator potapanja brodova. Imate potpunu slobodu u odlucivanju kako ce program izgledati.

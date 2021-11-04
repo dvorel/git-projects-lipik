@@ -1,0 +1,99 @@
+1. Napiši program koji unosi riječ i ispisuje samo samoglasnike
+1a. Prosiri prethodni program tako da umjesto samoglasnika program prebroji i ispise broj
+samoglasnika u rijeci.
+1c. Prosiri prethodni program tako da ispisuje broj samoglasnika, broj suglasnika i broj svih
+ostalih znakova.
+2. Napiši program koji unosi riječ i ispisuje koliko puta se u njoj javlja samoglasnik a.
+3. Napiši program koji unosi n brojeva i od znamenke desetice svakog broja kreira novi broj. Ispiši novi 
+broj i ispiši umnožak novog broja s 2. 
+4. Napisi program koji 4 puta ispisuje tvoje ime pomocu petlje for i zatim jednom tvoje prezime ispod svih imena.
+5. Napisi program koji pomocu petlje for ispisuje brojeve od 1-10 jedan pored drugog.
+6. Napisi program koji pomocu petlje for ispisuje sve parne brojeve od 40 do 60 jedan pored
+drugoga.
+7. Napisi program koji pomocu petlje for ispisuje brojeve djeljive s pet od 100-150 jedan ispod
+drugoga.
+8. Napisi program koji ispisuje slovo po slovo,jedno ispod drugoga, pomocu naredbe for rijec
+‘sunce’
+9. Ispisati samo parne brojeve brojevnog niza od prvih 10 brojeva.
+10. Ispiši prvih šest brojeva u obrnutom nizu. Npr. 1,2,3,4,5,6 ispisati kao 6,5,4,3,2,1.
+11. Unesite prvih 10 brojeva, ali izuzmite broj 7.
+12. Napišite program koji ispisuje zbroj parnih brojeva od 1 do 20
+13. Pomoću petlji istovremeno ispisati dvije riječi „Python“ i „je super“ tri puta
+14. Unesi neki broj i ispiši sve brojeve do tog broja počevši od 1
+15. Omogućite proizvoljan unos brojeva. Zatim unesite te proizvoljne brojeve i ispitajte koliko ih
+ima parnih, a koliko neparnih.
+16. Napisati program koji će omogućiti unos prirodnog broja n i ispisati djelitelje tog
+broja n
+17. Napisati program koji simulira bacanje novčića n puta te ispisati koliko puta se
+pojavljuje pismo i glava.
+18. 
+• Nastavnik ispituje učenike na satu
+• Ispitivati će svakog n-tog učenika u imeniku
+• Napisati program koji će omogućiti unos broja učenika te prirodan broj n kao
+kriterij odabira učenika iz imenika
+• Program treba ispisivati redne brojeve učenika koje će nastavnik ispisivati.
+
+19.
+• Napišite program koji će unositi broj učenika te omogućiti unos visine učenika
+prema broju unesenih učenika.
+• Program treba ispisati visinu najnižeg i najvišeg učenika
+
+20. Napisati program za učitavanje temperature zraka u prethodnih 10 dana te ispisati
+srednju temperaturu iznad nule i srednju temperaturu ispod nule.
+
+21. Napisati program koji će generirati tablicu množenja brojeva do 20
+
+22. Napišite program koji će inicijalizirati varijablu n na proizvoljnu 
+cjelobrojnu vrijednost. Vrijednost varijable n neka predstavlja red 
+tablice. Ispisati tablicu veličine n redaka i n stupaca. Vrijednost 1 
+neka se nalazi na glavnoj dijagonali, a vrijednost 0 na svim ostalim 
+mjestima. U nastavku slijedi primjer za n=5:
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+
+Napomena: za ispis vrijednost, tako da se nakon ispisa vrijednosti 
+dane print() funkciji ne ispiše novi redak koristiti sljedeću 
+sintaksu: print(vrijednost, end='')
+
+23. Odaberite proizvoljno koordinatu T=(x,y), vrijednosti varijabli x
+(stupac) i y (redak) neka budu manje od 10. Program neka ispiše 
+polje 10x10 čiji su svi elementi vrijednosti "-" osim koordinate T čija 
+je vrijednost "X". 
+
+Primjer: T=(1,1)
+- - - - - - - - - -
+- X - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+
+24. Napišite program koji ispisuje koliko ima prostih brojeva između 
+dva proizvoljna broja.
+
+25. Napišite program koji sadrži varijablu u kojoj je upisan proizvoljni 
+niz znakova i brojčanu varijablu n. Provjerite je li vrijednost varijable 
+n manja od broja znakova u nizu. Ako je vrijednost varijable n veća 
+ispišite informaciju o grešci. Ispišite iz niza znakova svako n-to 
+slovo. Na primjer, ulazni niz je "ABCDEFGH", n je 2, tada je izlaz 
+"ACEG".
+
+26. Napišite program koji sadrži varijablu u kojoj je upisan proizvoljni niz 
+znakova. Ispišite koliko velikih slova se nalazi u nizu. Ako je neko od 
+unesenih slova u nizu "A", brojanje velikih slova je potrebno prekinuti 
+i ispisati informaciju da je veliko slovo "A" pronađeno.
+
+27. Ispišite sve parne brojeve između 1 i 1000 koju su istovremeno 
+djeljivi i s 5 i s 13.
+
+28. Napisi program koji unosi n brojeva i od znamenke desetice svakog broja stvara novi broj.
+
+29. Napisi program koji unosi n brojeva i sastavlja novi broj od najvece znamenke u svakom od
+brojeva

@@ -1,0 +1,116 @@
+1. Napravite 2 skupa podataka i napunite ih proizvoljnim vrijednostima 
+te nakon toga napravite uniju i presjek tih skupova te ispišite rezultat 
+i za uniju i za presjek.
+
+2. Napravite rječnik osoba s ključevima ime, prezime, godine. 
+Vrijednosti pridružene ključevima odredite sami. Ispišite samo 
+vrijednosti u rječniku koristeći for petlju.
+
+
+3. U rječnik kreiran u prethodnom zadatku dodajte novi par 
+{ključ:vrijednost}. Ključ može biti adresa, OIB ili nešto slično.
+
+4. Iz rječnika korištenog u prethodnom zadatku izbrišite element 
+godine te ispišite rječnik.
+
+5. Napravite n-terac u kojem su pohranjeni samoglasnici. Ispišite 
+prva tri samoglasnika.
+
+
+6. Isprobajte promijeniti ili izbrisati element n-terca
+
+
+7. Napišite program koji se sastoji od liste. Elementi liste neka budu 
+proizvoljnih vrijednosti. Ispišite samo one elemente koji se nalaze na 
+parnom indeksu.
+
+8. Napišite program koji se sastoji od liste. Program s tipkovnice čita
+vrijednosti i tako pročitane vrijednosti sprema u listu. Učitavanje 
+prekinuti onoga trenutka kada korisnik unese broj 5. 
+
+
+9. Nadogradite prethodni zadatak tako da ako je korisnik unio manje od 
+6 vrijednosti u listu, na primjer korisnik je unio 3 vrijednosti (četvrta 
+unesena vrijednost je 5), ostale 3 vrijednosti neka se postave na 
+predefiniranu vrijednost, a to je 0.
+
+10. Prethodni zadatak nadogradite tako da nakon završetka upisivanja 
+petlja ispiše sve elemente liste zajedno s njihovim pripadajućim 
+indeksima. 
+
+Primjer: 
+Unesite broj: 1
+Unesite broj: 2
+Unesite broj: 3
+Unesite broj: 4
+Unesite broj: 5
+[0] = 1
+[1] = 2
+[2] = 3
+[3] = 4
+[4] = 0
+[5] = 0
+
+
+
+11. Napravite hrvatsko-engleski rječnik. Ključ podataka neka bude 
+hrvatska riječ, a vrijednost toga ključa neka bude engleska riječ. 
+Napuniti rječnik s 5 elemenata. 
+Napraviti beskonačnu petlju koja učitava s tipkovnice hrvatske riječi. 
+Za svaku učitanu riječ (ako prijevod postoji) ispisati prijevod, a ako 
+tražena riječ ne postoji, ispisati poruku da ta riječ ne postoji u 
+rječniku. 
+Učitavanje raditi tako dugo dok se ne unese znak 'x'. Potrebno je 
+obratiti pažnju na mala/velika slova. Prijedlog je pretvarati sve u mala 
+slova.
+
+
+12. Napišite program koji učitava elemente liste s tipkovnice. Učitavanje 
+prekinuti onoga trenutka kada korisnik unese broj 5. Nakon što je 
+lista učitana, program mora zamijeniti prvi element s posljednjim, 
+drugi element s pretposljednjim i tako redom.
+
+
+13. S tipkovnice učitavajte cijele brojeve. Prvi upisani broj može biti bilo 
+koji cijeli broj. Učitavanje ponavljati dok god je upisani broj strogo 
+veći od prethodno upisanog broja. Ispisati sumu svih učitanih brojeva 
+osim broja zbog kojeg je prekinuto učitavanje.
+
+14. Učitajte s tipkovnice 2 niza znakova, svaki od tih nizova znakova 
+spremite u zasebnu varijablu. Ispišite indekse na kojima se pojavljuju 
+ista slova neovisno o veličini ('a' i 'A' tretirati jednako).
+
+
+15. Napišite program koji s tipkovnice učitava proizvoljni cijeli 
+troznamenkasti broj. Ako učitani broj nije troznamenkasti, ispišite 
+poruku o greški i prekinite daljnje izvođenje programa. U slučaju da 
+je učitani broj ispravan, ispišite prvi sljedeći troznamenkasti 
+palindrom. Na primjer, ako je učitani broj 120, prvi sljedeći palindrom 
+je 121.
+
+16. Napišite program koji učitava cijele brojeve sve dok je unesena 
+vrijednost veća od 0. Pronađite koji od učitanih brojeva ima najmanju 
+sumu znamenki te ispišite taj broj i sumu.
+
+17. S tipkovnice učitajte proizvoljni niz znakova. Kreirajte novi niz 
+znakova koji će sadržavati naizmjence velika i mala slova iz ulaznog 
+niza, redom kako se pojavljuju u ulaznom nizu: prvo veliko slovo u 
+ulaznom nizu, prvo sljedeće malo slovo u nastavku ulaznog niza, 
+prvo sljedeće veliko slovo u nastavku ulaznog niza itd. Novokreirani 
+niz ispišite na zaslon. U nastavku se nalazi primjer:
+
+Ulazni niz: ifeFemFEkej83FkW
+Izlazni niz: FeFkFkW
+
+
+18. Napišite program koji s tipkovnice učitava cijeli broj n iz intervala [3, 
+20]. U slučaju da je unesena vrijednost neispravna, ispisati prikladnu 
+poruku na ekran te zatražiti ponovni unos cijelog broja. Nakon 
+učitane vrijednosti n, učitajte n parova cijelih brojeva. Nakon što je n
+parova brojeva učitano, ispišite parove brojeva koji imaju najveću 
+sumu.
+
+19. Napišite program koji s tipkovnice učitava proizvoljni niz znakova. 
+Nad učitanim nizom znakova napravite analizu je li taj niz palindrom 
+ili nije. Niz je palindrom ako se isto čita slijeva nadesno ili pak 
+zdesna nalijevo.
