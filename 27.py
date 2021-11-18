@@ -2,7 +2,7 @@ import os
 import codecs
 
 data_location = "git_test/data/"
-out_dir = "out/"
+out_dir = "out/"    #ne smije postojati
 file_names = ("email", "nums", "names", "rest")
 
 mails = []
