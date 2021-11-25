@@ -1,15 +1,50 @@
 import os
 import codecs
+import csv
 
-data_location = "git_test/data/"
-out_dir = "out/"    #ne smije postojati
-file_names = ("email", "nums", "names", "rest")
+class Person:
+    def __init__(self) -> None:
+        self.email = ""
+        self.number = ""
+        self.name = ""
+        self.info = ""
 
-mails = []
-numbers = []
-names = []
-not_important = []
+    def print_person(self):
+        print("Name: ", self.name)
+        print("Number: ", self.number)
+        print("Email: ", self.email)
+        print("Info: ", self.info)
 
+    #setters
+    def set_name(self, name):
+        self.name = name
+    
+    def set_email(self, email):
+        self.email = email
+    
+    def set_number(self, num):
+        self.number = num
+
+    def set_info(self, info):
+        self.info = info
+
+    #getters
+    def get_name(self):
+        return(self.name)
+    
+    def get_email(self):
+        return(self.email)
+    
+    def get_number(self):
+        return(self.number)
+
+    def get_info(self):
+        return(self.info)
+
+out_dir = "out"
+file_names = ("email", "nums", "names", "rest", "data.csv")
+
+#get mail from data
 def find_mail(data):
     for i in data:
         if "@" in i and "." in i:
@@ -18,7 +53,7 @@ def find_mail(data):
 
 def find_num(data):
     for i in data:
-        if sum(c.isdigit() for c in i) >= 6:    #broj mobitela/telefona mora imati bar 6 brojeva
+        if sum(c.isdigit() for c in i) >= 6:
             return i
     return "NoNumber"
 
@@ -30,50 +65,99 @@ def find_name(data):
             ime += data[0][i]
     return ime.strip()
 
-def find_junk(data):
+def find_info(data, person):
     ret = []
+    email = person.get_email()
+    number = person.get_number()
+    name = person.get_name()
     for i in range(len(data)):
-        if data[i] not in mails and data[i] not in numbers:
+        if data[i] not in email and data[i] not in number:
             if i == 0:
-                ret.append(data[i].replace(names[-1], ""))      #remove name from string
+                ret.append(data[i].replace(name, ""))      #remove name from string
             else:
                 ret.append(data[i])
     return ret
 
-def proc(str):
+def proc(str, person):
     spl = str.split("\n")
-    mails.append(find_mail(spl))
-    numbers.append(find_num(spl))
-    names.append(find_name(spl))
-    not_important.append(find_junk(spl))
-
-def write_files():
-    out_location = data_location + out_dir
-    os.mkdir(out_location)    
-    #upisi emailove u file
-    f = codecs.open(out_location+ file_names[0], "w", "utf-8")
-    f.write(str(mails))
-    f.close()
-    #upisi brojeve
-    f = codecs.open(out_location+ file_names[1], "w", "utf-8")
-    f.write(str(numbers))
-    f.close()
-    #upisi imena
-    f = codecs.open(out_location+ file_names[2], "w", "utf-8")
-    f.write(str(names))
-    f.close()
-    #upisi ostalo
-    f = codecs.open(out_location+ file_names[3], "w", "utf-8")
-    f.write(str(not_important))
-    f.close()
+    person.set_email(find_mail(spl))
+    person.set_number(find_num(spl))
+    person.set_name(find_name(spl))
+    person.set_info(find_info(spl, person))
 
 
 
-for i in os.listdir(data_location):
-    data = open(data_location + i, 'r', encoding= "utf8").read()
-    proc(data)
-    print(data)
-try:
-    write_files()
-except:
-    print("Write failed!\nCheck if files already exsists")
+def write_files(data_location, person):
+    out_location = os.path.normcase(os.path.join(data_location, out_dir))
+    #create output dir
+    if not os.path.isdir(out_location):
+        try:
+            os.mkdir(out_location)
+        except:
+            print("\nFailed to create dir!")
+
+    #write emails to file
+    f = codecs.open(os.path.join(out_location, file_names[0]), "a", "utf-8")
+    f.write(str(person.get_email()))
+    f.write("\n")
+    f.close()
+    #write numbers
+    f = codecs.open(os.path.join(out_location, file_names[1]), "a", "utf-8")
+    f.write(str(person.get_number()))
+    f.write("\n")
+    f.close()
+    #write names
+    f = codecs.open(os.path.join(out_location, file_names[2]), "a", "utf-8")
+    f.write(str(person.get_name()))
+    f.write("\n")
+    f.close()
+    #write other info
+    f = codecs.open(os.path.join(out_location, file_names[3]), "a", "utf-8")
+    f.write(str(person.get_info()))
+    f.write("\n")
+    f.close()
+
+def write_csv(data_location, person):
+    out_location = os.path.normcase(os.path.join(data_location, out_dir))
+    #create output dir
+    if not os.path.isdir(out_location):
+        try:
+            os.mkdir(out_location)
+        except:
+            print("\nFailed to create dir!")
+    
+    try:
+        f = codecs.open(os.path.join(out_location, file_names[-1]), "r", "utf-8")
+        read = csv.reader(f)
+        lines = len(list(read))
+    except:
+        print("File doesnt exist!0")
+        lines = 0
+
+    f = codecs.open(os.path.join(out_location, file_names[-1]), "a+", "utf-8")
+    write = csv.writer(f)
+    if lines == 0:
+        write.writerow(["Name", "Number", "Email", "Info"])
+
+    write.writerow([person.get_name(), person.get_number(), person.get_email(), person.get_info()])
+    
+
+def open_files(data_location):
+    ret = []
+    for i in os.listdir(data_location):
+        path = os.path.normcase(os.path.join(data_location, i))
+        if os.path.isfile(path):
+            ret.append(Person())
+            data = open(path, 'r', encoding= "utf8").read()
+            print(data)
+            proc(data, ret[-1])
+            ret[-1].print_person()
+
+    return ret
+
+#call funcs
+people = open_files("david/datoteke/data")
+
+for i in people:
+    write_files("david/datoteke/data", i)
+    write_csv("david/datoteke/data", i)
