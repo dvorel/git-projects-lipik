@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 import math
 import os
+import time
 
 
 # TODO: napisite funkciju za detekciju rubova; funkcija vraca binarnu sliku s detektiranim rubovima
@@ -19,8 +20,8 @@ def filterByColor(image):
     img_hls = cv2.cvtColor(image, cv2.COLOR_BGR2HLS)
 
     #granice za zutu i bijelu
-    white_mask = cv2.inRange(img_hls, (0,200,0), (180,255,255))
-    yellow_mask = cv2.inRange(img_hls, (20,0,100), (30,255,255))
+    white_mask = cv2.inRange(img_hls, (0,220,0), (180,255,255))
+    yellow_mask = cv2.inRange(img_hls, (10,120,100), (20,255,255))
 
     mask = cv2.bitwise_or(white_mask, yellow_mask)    
     
@@ -34,7 +35,7 @@ def filterByColor(image):
 def findLines(img, cimg):
 
     # TODO: koristite cv2.HoughLinesP() kako biste dobili linije na slici
-    lines = cv2.HoughLinesP(img, 1, np.pi/180, 0, minLineLength=5)
+    lines = cv2.HoughLinesP(img, 1, np.pi/180, 15, minLineLength=15, maxLineGap=200)
     
     # od svih linija treba pronaci one koje predstavljaju lijevu odnosno desnu uzduznu kolnicku oznaku
     linesLeft = []
@@ -113,12 +114,12 @@ def drawLane(linesLeft, linesRight, frameToDraw):
     if linesLeft:
         if linesLeft[0][2] == 1:
             # TODO: koristite funkcije cv2.putText kako biste na ekranu crvenim slovima ispisali upozorenje
-            cv2.putText(frameToDraw, "Upozorenje!", (200,200), 2, 4, (0,0,255))
+            cv2.putText(frame, "UPOZORENJE", (200, 200), cv2.FONT_HERSHEY_COMPLEX, 3, (0, 0, 255), 3, cv2.LINE_AA)
             print("Upozorenje")
 
     if linesRight:
         if linesRight[0][2] == 1:
-            cv2.putText(frameToDraw, "Upozorenje!", (200,200), 2, 4, (0,0,255))
+            cv2.putText(frame, "UPOZORENJE", (200, 200), cv2.FONT_HERSHEY_COMPLEX, 3, (0, 0, 255), 3, cv2.LINE_AA)
             print("Upozorenje")
         
     return frameToDraw
@@ -142,10 +143,12 @@ height = video.get(cv2.CAP_PROP_FRAME_HEIGHT)
 
 # ovdje definirajte sve ostale varijable po potrebi koje su vam potrebne za razvoj rjesenja
 k = 0
-RoIymin = 460
-RoIymax = 620
+RoIymin = int(12*(height/20))
+RoIymax = int(17*(height/20))
+fps = 0
 
 while True:
+    t1 = time.time()
 
     # TODO: ucitaj frame pomocu metode read, povecaj k za jedan ako je uspjesno ucitan frame
     _, frame = video.read()
@@ -156,26 +159,24 @@ while True:
     # TODO: kreiraj regiju od interesa (RoI) izdvajanjem dijela numpy polja koje predstavlja frame
     
     
-    frame_roi = frame[int(12*(height/20)):int(17*(height/20)), :]
+    frame_roi = frame[RoIymin:RoIymax, :]
     cv2.imshow("Line Detection", frame_roi)
 
     # TODO: pozovite funkciju za filtriranje po boji
 
     cv2.imshow("Filtered", filterByColor(frame_roi)[0])
     frame_filtered = filterByColor(frame_roi)
-    print(frame_filtered.shape[:2])
 
     # TODO: pozovite funkciju za detekciju rubova na filtriranoj slici kako bi ste smanjili kolicinu piksela koji se dalje procesiraju
     
     frame_canny = detectEdges(frame_filtered)
-    cv2.imshow("canny", frame_canny)
+    cv2.imshow("canny", frame_filtered)
 
     # TODO: pozovite funkciju za pronalazak pravaca lijeve i desne linije na slici s rubovima
     l1, l2 = findLines(frame_canny, frame_roi)
-    print(l1, l2)
 
     # TODO: pozovite funkciju za prikaz vozne trake
-    cv2.imshow("lanes", drawLane(l1, l2, frame))
+    
 
 
     # TODO: prikazi frame pomocu cv2.imshow(); i sve ostale medjurezultate kada ih napravite
@@ -183,7 +184,7 @@ while True:
     #cv2.imshow()
 
     
-
+    t2 = time.time()
     key =  cv2.waitKey(1) & 0xFF 
     if key == ord('q'):
         break
@@ -191,5 +192,10 @@ while True:
     # TODO: ovdje ispisite vrijeme procesiranja jednog okvira
     print("Vrijeme obrade u fps: ")
 
+    if k%20 == 0:
+        fps = 1/(t2-t1)
+        print(fps)
+    cv2.putText(frame, str(int(fps)), (7, 70), cv2.FONT_HERSHEY_COMPLEX, 3, (0, 0, 255), 3, cv2.LINE_AA)
+    cv2.imshow("lanes", drawLane(l1, l2, frame))
 
 # TODO: ovdje unistite sve prozore i oslobodite objekt koji je kreiran pomocu cv2.VideoCapture
